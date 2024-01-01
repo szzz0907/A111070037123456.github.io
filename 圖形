@@ -1,0 +1,12 @@
+<!文件類型 html>
+<html>
+<頭>
+<title>圓柱體</title>
+<link rel=“stylesheet” type=“text/css” href=“styles.css”>
+</頭>
+<正文>
+<div 類=“cylinder”>
+<div class=“circle”></div>
+</分區>
+</身體>
+</html>
