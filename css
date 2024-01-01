@@ -1,0 +1,25 @@
+.cylinder {
+  perspective: 800px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #3498db; /* 你想要的圓柱體底部圓形的顏色 */
+  position: relative;
+  transform-style: preserve-3d;
+  transform: rotateX(90deg);
+}
+
+.cylinder:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #3498db; /* 你想要的圓柱體側面的顏色 */
+  transform-origin: bottom;
+  transform: rotateX(90deg) translateZ(50px);
+}
